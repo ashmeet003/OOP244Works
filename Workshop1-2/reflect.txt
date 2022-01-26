@@ -1,0 +1,10 @@
+// Name: Ashmeet Kaur
+// Student email: ashmeet-kaur1@myseneca.ca
+//Student ID: 122421217
+//Date: January 25, 2021
+
+The first part of workshop was pretty easy. Though i did some minor mistakes as using: "using namespace sdds;" instead of "namespace sdds{}", which caused few errors to occur.
+The part two of workshop took a lot of time. 
+It took me hours to understand my mistake and understand few function.
+I used fgetc() to check end of file to be read. Using fgetc caused it to read the first character of next line, as a result fscanf statement omitted the first character and saved the incomplete name in the struct.
+Hence, I got to clear few basic concepts of programming because of the workshop.
