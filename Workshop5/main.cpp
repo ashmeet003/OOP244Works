@@ -10,8 +10,7 @@ I have done all the coding by myself and only copied the code that my professor 
 #include "Flight.h"
 using namespace std;
 using namespace sdds;
-void display_filght_details(const Flight* fl, int num)
-{
+void display_filght_details(const Flight* fl, int num){
     cout << "+------------------------------------------------------------------------------+" << endl;
     for (int i = 0; i < num; i++)
     {
@@ -19,8 +18,7 @@ void display_filght_details(const Flight* fl, int num)
     }
     cout << "+------------------------------------------------------------------------------+" << endl;
 }
-int main()
-{
+int main(){
     int total_passengers;
     Flight f[] =
     {

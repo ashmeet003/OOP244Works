@@ -9,15 +9,11 @@ I have done all the coding by myself and only copied the code that my professor 
 */
 #ifndef SDDS_FLIGHT_H
 #define SDDS_FLIGHT_H
-
 #include <iostream>
-
 namespace sdds
 {
-
     const int MaxPassengerCap = 388;
     const int MaxFuelCap = 238840;
-
     class Flight
     {
     private:
@@ -46,6 +42,5 @@ namespace sdds
         friend int operator+(const Flight& lO, const Flight& rO);
         friend int operator+=(int& lO, const Flight& rO);
     };
-
 }
-#endif 
+#endif //!SDDS_FLIGHT_H
