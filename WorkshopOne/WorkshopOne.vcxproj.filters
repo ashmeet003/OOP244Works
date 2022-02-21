@@ -24,12 +24,21 @@
     <ClCompile Include="WordStat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="directory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Phone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cStrTools.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Word.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phone.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

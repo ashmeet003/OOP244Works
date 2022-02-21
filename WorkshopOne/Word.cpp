@@ -13,14 +13,14 @@ Date: January 20, 2021
 #include "cStrTools.h"
 //#include "cStrTools.cpp"
 
-const int SORT_ALPHABETICALLY = 0;
-const int MAX_NO_OF_WORDS = 500;
-const int SORT_BY_OCCURANCE = 1;
-
 
 
 using namespace std;
 namespace sdds {
+
+    const int SORT_ALPHABETICALLY = 0;
+    const int MAX_NO_OF_WORDS = 500;
+    const int SORT_BY_OCCURANCE = 1;
 
 
 

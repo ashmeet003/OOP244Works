@@ -6,10 +6,10 @@ Date: January 20, 2021
 */
 #ifndef SDDS_WORD_H
 #define SDDS_WORD_H
-const int MAX_WORD_LEN = 21;
+
 namespace sdds 
 {
-	//const int MAX_WORD_LEN = 21;
+	const int MAX_WORD_LEN = 21;
 	struct Word {
 		char letters[MAX_WORD_LEN];
 		int count;

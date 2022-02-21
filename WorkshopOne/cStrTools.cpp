@@ -13,7 +13,7 @@ Date: January 20, 2021
 using namespace std;
 namespace sdds {
 
-    // returns the lower case value of a character
+    // returns the lower case value of a character.
     char toLower(char ch) {
         if (ch >= 'A' && ch <= 'Z') ch += ('a' - 'A');
         return ch;

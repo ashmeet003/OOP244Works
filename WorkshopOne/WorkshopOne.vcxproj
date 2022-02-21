@@ -140,11 +140,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="cStrTools.cpp" />
+    <ClCompile Include="directory.cpp" />
+    <ClCompile Include="Phone.cpp" />
     <ClCompile Include="Word.cpp" />
     <ClCompile Include="WordStat.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cStrTools.h" />
+    <ClInclude Include="Phone.h" />
     <ClInclude Include="Word.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
