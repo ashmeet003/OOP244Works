@@ -1,0 +1,12 @@
+/*
+Name: Ashmeet Kaur
+Seneca email: ashmeet-kaur1@myseneca.ca
+Student Id: 122421217
+Date: February 21, 2022
+I have done all the coding by myself and only copied the code that my professor provided to
+ complete my workshops and assignments.
+*/
+The workshop taught a lot about binary member functions, type casting, member functions and class functions.
+Though it was a bit difficult at first point to use binary or unary symbols to use as operators, by comparing them with usual function types, the work became easier.
+This workshop also included to create main.cpp files by ourselves which was another challenge but good anough.
+I faced problem during helper function in part1 of function where I used helper function but realised that could be solved by using an additional function to extract value using member function.
