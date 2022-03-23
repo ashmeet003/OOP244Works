@@ -1,0 +1,17 @@
+/*
+Name: Ashmeet Kaur
+Seneca email: ashmeet-kaur1@myseneca.ca
+Student Id: 122421217
+Date: March 20, 2022
+*/
+
+The workshop, based on inheritence, cleared many concepts:
+It helped understand the hierarchies among classes, and cleared the concept of base class and derived class.
+For a moment I thought, why not use protected in derived class, but somehow it wasn't working. Therefore, I started reading notes briefly and understood the meaning of word protected more clearly. (It basically means that the specifications under protected is available to derived class only).
+Though not the part of inheritence, the workshop helped me gain a clear understanding of using word const, and usage of std::ostream& and std::istream&, which might be a bit blur earlier. (Now it feels like I almost know the correct usage of keyword const (I hope)).
+
+The workshop also involved the concept of shadowing the functions, like print(), and reusing the functions from base class, like valid().
+While doing the project it also seemed to me to use keyword virtual learnt in last lecture, but then I dropped the idea as it felt like, my understanding is not that thorough.
+
+Last but not the least, I was stuck at read(), hence I referred to a peer's code and understood the concept to write the function. It resulted out that, I was just overthinking few concepts and was making read function a bit confusing.
+Hence, learnt the lesson to take a short break and think over before resuming working.
