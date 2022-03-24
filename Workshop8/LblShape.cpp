@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include "LblShape.h"
-#include <iostream>
 #include <string>
+#include <cstring>
 using namespace std;
 namespace sdds{
 char* sdds::LblShape::label() const
@@ -35,8 +35,8 @@ void LblShape::getSpecs(std::istream& istr)
     if (m_label != nullptr)
         delete[] m_label;
     m_label = new char[len + 1];
-    m_label[len] = '\0';
     strcpy(m_label, s.c_str());
+    m_label[len] = '\0';
     if (istr.peek() == ',')
         istr.ignore();
 }

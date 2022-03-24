@@ -1,4 +1,5 @@
 #include "Shape.h"
+#include <cstring>
 using namespace std;
 using namespace sdds;
 
@@ -12,9 +13,4 @@ std::istream& sdds::operator>>(std::istream& istr, Shape& S)
 {
     S.getSpecs(istr);
     return istr;
-}
-
-sdds::Shape::~Shape()
-{
-    ;
 }

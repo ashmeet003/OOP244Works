@@ -18,7 +18,7 @@ using namespace sdds;
 		istr.ignore(1000, '\n');
 	}
 
-	void sdds::Line::draw(std::ostream& ostr)
+	void sdds::Line::draw(std::ostream& ostr)const
 	{
 		if (LblShape::label() != nullptr && m_length > 0)
 		{

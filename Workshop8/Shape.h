@@ -6,7 +6,7 @@ namespace sdds {
 	public:
 		virtual void draw(std::ostream& ostr=std::cout)const = 0;
 		virtual void getSpecs(std::istream& istr=std::cin) = 0;
-		virtual ~Shape();
+		virtual ~Shape() {};
 	};
 	std::ostream& operator<<(std::ostream& ostr, const Shape& S);
 	std::istream& operator>>(std::istream& istr, Shape& S);

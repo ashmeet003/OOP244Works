@@ -4,17 +4,18 @@
 #include "Shape.h"
 #include <iostream>
 namespace sdds {
-	const int MAX_SIZE = 1000;
 	class LblShape : public Shape {
-	private:
-		char* m_label{};
+		char* m_label=nullptr;
 	protected:
 		char* label()const;
 	public:
 		LblShape();
-		LblShape(const char* label = nullptr);
-		~LblShape();
+		LblShape(const char* label);
+		virtual ~LblShape();
+		LblShape(const LblShape&) = delete;
+		void operator=(const LblShape&) = delete;
 		void getSpecs(std::istream& istr);
+		virtual void draw(std::ostream& ostr) const = 0;
 
 	};
 
