@@ -1,10 +1,16 @@
+/*
+Name: Ashmeet Kaur
+Seneca email: ashmeet-kaur1@myseneca.ca
+Student Id: 122421217
+Date: March 24, 2022
+I have done all the coding by myself and only copied the code that my professor provided to
+ complete my workshops and assignments.
+*/
 #include "Rectangle.h"
 #include <iomanip>
 #include <cstring>
 using namespace std;
 using namespace sdds;
-
-
 	sdds::Rectangle::Rectangle()
 	{
 		m_width = 0;
