@@ -1,0 +1,23 @@
+/*
+Name: Ashmeet Kaur
+Seneca email: ashmeet-kaur1@myseneca.ca
+Student Id: 122421217
+Date: April 3 2022
+I have done all the coding by myself and only copied the code that my professor provided to
+ complete my workshops and assignments.
+*/	
+
+The workshop helped me went through ifstream again. It is a kind of weak point for me but I tried to do my best and understand the concepts.
+Few concepts are engraved in my mind now:
+-Header file should not contain std,
+-Implement parent's class destructor as virtual, and,
+-Usage of inheritance.
+The project was also a bit fun, since it included html text(atleast format), it is always fun to mix things.
+I tried to limit the use of syntax by creating functions for them, stll in some places, I guess, syntax is repeated.
+
+For milestone3, I referred to my friend for a particular function, to understand the problem.
+It was using similar syntax, hence I tried using templates.
+However it was a failed attempt, and due to less time, I couldn't practice on it.
+However, I would continue to make that code perfect(that was part of Utils class) and commit on github.
+Atleast I tried using templates, and it was nice to try something new. Not sure why it showed erro, like: compiler cannot deduce the template.
+So, I would that agian in upcoming days.
