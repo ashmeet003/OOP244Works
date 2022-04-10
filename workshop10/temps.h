@@ -10,9 +10,10 @@ namespace sdds {
 			if (arr[i] == A) { count++;// std::cout << arr[i] << std::endl;
 			}
 		}
+		unsigned int j = 0;
 		Collection<T> s = Collection<T>(count);
 		for ( int i = 0; i < a; i++) {
-			if (arr[i] == A) s[i] = arr[i];
+			if (arr[i] == A) s[j++] = arr[i];
 		}
 		return s;
 	}
